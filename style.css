@@ -1,0 +1,47 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+.laptime {
+    overflow: scroll;
+    height: 50%;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 30px;
+}
+
+.stopwacth {
+    margin-top: 30px;
+}
+
+.laptime ol li {
+    font-size: 24px;
+    list-style-type: decimal;
+}
+
+@media screen and (max-height:600px) {
+    .buttons {
+        position: sticky;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-height:800px) {
+    .laptime {
+        height: 35vh;
+    }
+
+    .stopwacth {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .stopwacth {
+        border: none;
+    }
+}

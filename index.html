@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StopWacth</title>
+        <link rel="stylesheet" href="src/output.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container flex flex-col relative  items-center gap-3">
+            <div
+                class="stopwacth flex justify-center items-center w-80 h-80 rounded-full border-gray-400 border-solid border-4 mt-24 gap-2 overflow">
+                <div class="currenttime text-8xl">00:00</div>
+                <div class="miliseconds text-3xl top-5">00</div>
+            </div>
+            <div class="laptime">
+                <ol></ol>
+            </div>
+            <div class="buttons flex gap-20 absolute bottom-1 max-sm:static max-sm:top-96">
+                <button id="restart">
+                    <img src="img/restart.svg" alt="">
+                </button>
+                <button id="start">
+                    <img src="img/start.svg" alt="">
+                </button>
+                <button id="lap">
+                    <img src="img/lap.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
