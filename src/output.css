@@ -586,41 +586,16 @@ video {
   position: relative;
 }
 
-.left-4 {
-  left: 1rem;
+.bottom-1 {
+  bottom: 0.25rem;
 }
 
 .top-5 {
   top: 1.25rem;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
-.bottom-2 {
-  bottom: 0.5rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mt-24 {
   margin-top: 6rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -631,32 +606,8 @@ video {
   height: 20rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-lvh {
-  height: 100lvh;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .w-80 {
   width: 20rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.max-w-screen-lg {
-  max-width: 1024px;
 }
 
 .flex-col {
@@ -679,24 +630,8 @@ video {
   gap: 5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-scroll {
-  overflow: scroll;
-}
-
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .rounded-full {
@@ -707,10 +642,6 @@ video {
   border-width: 4px;
 }
 
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-solid {
   border-style: solid;
 }
@@ -718,10 +649,6 @@ video {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .text-3xl {
@@ -734,44 +661,12 @@ video {
   line-height: 1;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 @media not all and (min-width: 640px) {
-  .max-sm\:bottom-0 {
-    bottom: 0px;
+  .max-sm\:static {
+    position: static;
   }
 
-  .max-sm\:flex {
-    display: flex;
-  }
-
-  .max-sm\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:bottom-0 {
-    bottom: 0px;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
+  .max-sm\:top-96 {
+    top: 24rem;
   }
 }

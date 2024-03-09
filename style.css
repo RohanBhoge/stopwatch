@@ -1,21 +1,17 @@
 .container {
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
 }
 
 .laptime {
     overflow: scroll;
     height: 50%;
+    scrollbar-width: none;
 }
 
 .buttons {
     position: absolute;
     bottom: 30px;
-}
-
-.stopwacth {
-    margin-top: 30px;
 }
 
 .laptime ol li {
