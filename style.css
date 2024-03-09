@@ -17,6 +17,7 @@
 .laptime ol li {
     font-size: 24px;
     list-style-type: decimal;
+    scrollbar-width: none;
 }
 
 @media screen and (max-height:600px) {
